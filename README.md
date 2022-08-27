@@ -1,5 +1,7 @@
 # threeds
 
+Vue.js 2.6 UI Toolkit demo for Web
+
 ## Project setup
 ```
 npm install
