@@ -1,5 +1,5 @@
 # Threeds 使用Vue2.6开发的UI组件库DEMO
-![](https://less-1251975755.cos.ap-beijing.myqcloud.com/2022-08-28%2020.03.47.png)
+![](./examples/assets/2022-08-28%2020.11.42.png)
 ### 组件：
 链接
 ```vue
