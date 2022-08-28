@@ -9,7 +9,8 @@
 <script>
     export default {
         // 等下 index.js 里面要用到
-        name:"lyLink",
+        // eslint-disable-next-line vue/multi-word-component-names
+        name:"TdsLink",
         props: {
             // 限制类型
             href: String,

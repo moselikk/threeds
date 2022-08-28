@@ -58,6 +58,8 @@ input{
   font-size: 40px;
   margin-left: 15px;
   text-align: center;
+  border: 1px solid #000;
+  border-radius: 5px;
 }
 input:nth-child(1){
   margin-left: 0;

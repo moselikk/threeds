@@ -41,7 +41,7 @@ export default {
 {
   background-color: skyblue;
 }
-.tds-button--waning{
+.tds-button--warning{
   background-color: rgba(255, 0, 0, 0.512);
 }
 .tds-button--success{

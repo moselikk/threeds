@@ -1,10 +1,10 @@
 // 引入组件
-import lyLink from './lyLink'
+import TdsLink from './link'
 import TdsButton from './button'
 import TdsAuthCode from './authcode'
 // 存放组件的数组
 const components = [
-    lyLink,
+    TdsLink,
     TdsButton,
     TdsAuthCode
 ]
@@ -29,7 +29,7 @@ export default install
 export {
     // 导出的对象必须具有 install，才能被 Vue.use() 方法安装
     install,
-    lyLink,
+    TdsLink,
     TdsButton,
     TdsAuthCode
 }

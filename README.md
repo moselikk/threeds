@@ -1,26 +1,20 @@
-# threeds
-
-Vue.js 2.6 UI Toolkit demo for Web
-
-## Project setup
+# Threeds 使用Vue2.6开发的UI组件库DEMO
+![](https://less-1251975755.cos.ap-beijing.myqcloud.com/2022-08-28%2020.03.47.png)
+### 组件：
+链接
+```vue
+<TdsLink href="https://www.moselikk.com">我的个人主页</TdsLink>
 ```
-npm install
+按钮
+```vue
+<TdsButton type="warning" size="medium">一个按钮</TdsButton>
 ```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
+验证码输入
+```vue
+<TdsAuthCode length="6"></TdsAuthCode>
 ```
 
-### Lints and fixes files
-```
-npm run lint
-```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
+

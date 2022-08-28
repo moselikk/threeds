@@ -1,10 +1,10 @@
 <template>
   <div id="app">
-    <lyLink type="primary" href="https://www.moselikk.com">我的个人主页</lyLink>
+    <TdsLink type="primary" href="https://www.moselikk.com">我的个人主页</TdsLink>
     <br />
     <TdsButton @click="handleClick">一般按钮</TdsButton>
     <br />
-    <TdsButton type="waning">警告按钮</TdsButton>
+    <TdsButton type="warning">警告按钮</TdsButton>
     <br />
     <TdsButton @click="handleClick" size="medium" type="success">中按钮</TdsButton>
     <br />
