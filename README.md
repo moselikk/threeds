@@ -13,7 +13,19 @@
 ```
 验证码输入
 ```vue
-<TdsAuthCode length="6"></TdsAuthCode>
+<TdsAuthCode length="6" @typeend="typeend"></TdsAuthCode>
+...
+data(){
+    return{
+      code: ''
+    }
+  },
+  methods:{
+    typeend(code){
+      this.code = code
+    }
+  },
+  ...
 ```
 
 
