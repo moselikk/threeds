@@ -37,6 +37,8 @@ export default {
       const inputNodes = this.$refs.inputList.childNodes
       if(index==(inputNodes.length-1)){
         inputNodes[index].blur()
+        // this.typeend(this.code.join(''))
+        this.$emit('typeend', this.code.join(''))
       }
       if(inputNodes[index].value){
         if(index<(inputNodes.length-1)){

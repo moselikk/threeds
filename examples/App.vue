@@ -9,18 +9,27 @@
     <TdsButton @click="handleClick" size="medium" type="success">中按钮</TdsButton>
     <br />
     <TdsButton @click="handleClick" size="big" >大按钮</TdsButton>
-    <TdsAuthCode length="6"></TdsAuthCode>
+    <TdsAuthCode length="6" @typeend="typeend"></TdsAuthCode>
   </div>
 </template>
 
 <script>
 export default {
   name: 'App',
+  data(){
+    return{
+      code: ''
+    }
+  },
   methods:{
     handleClick(){
       alert("按钮被点击了")
+    },
+    typeend(code){
+      this.code = code
     }
-  }
+  },
+  components:{}
 }
 </script>
 
